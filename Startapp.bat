@@ -5,7 +5,7 @@ goto :app_jre7
 
 :app_manual
 echo Running default Java
-java -Xmx1g cp "lib\*;.;Aspose.ExamplesCenter.jar;%EXAMPLES_DIR%\lib\*" aspose.examplescenter.desktop.Dashboard
+java -Xmx1g -cp "lib\*;.;Aspose.ExamplesCenter.jar;%EXAMPLES_DIR%\lib\*" aspose.examplescenter.desktop.Dashboard
 goto :app_end
 
 :app_jre7
